@@ -1,0 +1,2040 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"feed",
+				"feedparser"
+			],
+			[
+				"on",
+				"onThreadResult"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"mr",
+				"margin-bottom"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"cat",
+				"categorie-paid"
+			],
+			[
+				"background-i",
+				"background-position"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"mai",
+				"margin-top"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"invoice",
+				"invoicesToDisplay"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"Invoic",
+				"invoicesCount  (variable)"
+			],
+			[
+				"inlie",
+				"inline-block"
+			],
+			[
+				"head",
+				"headline-button"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"mari",
+				"margin-top"
+			],
+			[
+				"background-posi",
+				"-ms-background-position-x:   (property)"
+			],
+			[
+				"background-",
+				"background-origin"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"mart",
+				"margin-left"
+			],
+			[
+				"ma",
+				"marketing"
+			],
+			[
+				"inn",
+				"inner-right"
+			],
+			[
+				"in",
+				"inner-left"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"inPro",
+				"inProgressEnd"
+			],
+			[
+				"invoi",
+				"invoiceId"
+			],
+			[
+				"regi",
+				"registered"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"pri",
+				"print_r"
+			],
+			[
+				"hr",
+				"href"
+			],
+			[
+				"sma",
+				"smarty"
+			],
+			[
+				"invoices",
+				"invoices"
+			],
+			[
+				"invo",
+				"invoices"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"table",
+				"table-on-top"
+			],
+			[
+				"ali",
+				"text-align"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"fott",
+				"footer  (element)"
+			],
+			[
+				"foot",
+				"footer"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"backgroun",
+				"background-repeat"
+			],
+			[
+				"backgr",
+				"background-image"
+			],
+			[
+				"maro",
+				"margin-top"
+			],
+			[
+				"contai",
+				"container-narrow"
+			],
+			[
+				"site-c",
+				"site-content-bepayed"
+			],
+			[
+				"size",
+				"size:   (property)"
+			],
+			[
+				"border",
+				"border-left"
+			],
+			[
+				"backg",
+				"background-image"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"pay",
+				"paydate"
+			],
+			[
+				"modal",
+				"modal"
+			],
+			[
+				"invoic",
+				"invoiceId"
+			],
+			[
+				"redirect",
+				"http_redirect"
+			],
+			[
+				"json",
+				"json_decode"
+			],
+			[
+				"mag",
+				"margin-top"
+			],
+			[
+				"marin",
+				"margin-left"
+			],
+			[
+				"at_be",
+				"at_beginning_of_day"
+			],
+			[
+				"paid_pas",
+				"paid_passenger_ids"
+			],
+			[
+				"paid",
+				"paid_passenger_ids"
+			],
+			[
+				"cost",
+				"cost_per_passenger"
+			],
+			[
+				"money",
+				"money_saved_passengers"
+			],
+			[
+				"graph_",
+				"graph_created_monthly"
+			],
+			[
+				"atB",
+				"at_beginning_of_month"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"grap",
+				"graphType"
+			],
+			[
+				"selec",
+				"selectedGraph"
+			],
+			[
+				"selecte",
+				"selectedGraph"
+			],
+			[
+				"sub",
+				"subvention_saved"
+			],
+			[
+				"suvn",
+				"subvention_after"
+			],
+			[
+				"suve",
+				"subvention_saved"
+			],
+			[
+				"carpo",
+				"carpooling_saved"
+			],
+			[
+				"trans",
+				"transport_cost"
+			],
+			[
+				"carp",
+				"carpooling_saved_before  (variable)"
+			],
+			[
+				"transpo",
+				"transport_cost_before"
+			],
+			[
+				"carpoo",
+				"carpooling_saved_after"
+			],
+			[
+				"total_cos",
+				"total_cost"
+			],
+			[
+				"passengr",
+				"passenger_ids"
+			],
+			[
+				"total_money_save",
+				"total_money_saved"
+			],
+			[
+				"total",
+				"total_money_saved"
+			],
+			[
+				"total_money",
+				"total_money_saved_per_passenger"
+			],
+			[
+				"ave",
+				"average_cost_per_passenger"
+			],
+			[
+				"distance",
+				"distance_group"
+			],
+			[
+				"dis",
+				"distance"
+			],
+			[
+				"twen",
+				"twenty_to_thirty"
+			],
+			[
+				"distan",
+				"distance_group"
+			],
+			[
+				"total_dur",
+				"total_duration_per_day_cumulate"
+			],
+			[
+				"graph_cuto",
+				"graph_custom_field_cumulate_for_class"
+			],
+			[
+				"graph",
+				"graph_custom_field_daily_for_class"
+			],
+			[
+				"grah",
+				"graph_items_count_daily_for_class"
+			],
+			[
+				"gra",
+				"graph_items_count_cumulate_for_class"
+			],
+			[
+				"total_per_day",
+				"total_per_day_cumulate"
+			],
+			[
+				"selected",
+				"selectedFilterHome"
+			],
+			[
+				"use",
+				"users-graph-filter"
+			],
+			[
+				"waitin",
+				"waiting_passengers_count"
+			],
+			[
+				"unpaid",
+				"unpaid_passengers_count"
+			],
+			[
+				"waiting",
+				"waiting_passenger_ids"
+			],
+			[
+				"rout",
+				"route"
+			],
+			[
+				"routes_cou",
+				"routes_count_this_week"
+			],
+			[
+				"routes_count",
+				"routes_count_today"
+			],
+			[
+				"begi",
+				"beginning_of_day"
+			],
+			[
+				"route",
+				"route_count"
+			],
+			[
+				"total_distance_this",
+				"total_distance_this_year"
+			],
+			[
+				"route_count",
+				"routes_count_this_year"
+			],
+			[
+				"total_dis",
+				"total_distance_this_month"
+			],
+			[
+				"route_cou",
+				"route_count_this_week"
+			],
+			[
+				"route_coun",
+				"routes_count_today"
+			],
+			[
+				"beginn",
+				"beginning_of_day"
+			],
+			[
+				"at",
+				"at_beginning_of_month"
+			],
+			[
+				"ago",
+				"ago"
+			],
+			[
+				"at_bef",
+				"at_beginning_of_week"
+			],
+			[
+				"at_begi",
+				"at_beginning_of_day"
+			],
+			[
+				"atbe",
+				"at_beginning_of_year"
+			],
+			[
+				"calc",
+				"calculate_growth"
+			],
+			[
+				"item",
+				"items_created_since_count"
+			],
+			[
+				"end",
+				"end_time"
+			],
+			[
+				"start",
+				"start_time"
+			],
+			[
+				"items",
+				"items_count"
+			],
+			[
+				"total_distanc",
+				"total_distance_per_day"
+			],
+			[
+				"group",
+				"group_date_for_class"
+			],
+			[
+				"gro",
+				"group"
+			],
+			[
+				"sel",
+				"selectedFilter"
+			],
+			[
+				"sele",
+				"selectVal"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "HackerNewsReader.py",
+			"settings":
+			{
+				"buffer_size": 1370,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Default.sublime-commands",
+			"settings":
+			{
+				"buffer_size": 95,
+				"line_ending": "Unix",
+				"name": "["
+			}
+		},
+		{
+			"file": "Main.sublime-menu",
+			"settings":
+			{
+				"buffer_size": 254,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "readme.md",
+			"settings":
+			{
+				"buffer_size": 233,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 71.0,
+		"selected_items":
+		[
+			[
+				"hacker",
+				"Hacker News Feed"
+			],
+			[
+				"mark",
+				"Markdown Preview: preview in Sublime Text"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"hacke",
+				"Hacker News Feed"
+			],
+			[
+				"hack",
+				"Hacker News Feed"
+			],
+			[
+				"hac",
+				"Hacker News Feed"
+			],
+			[
+				"ha",
+				"Hacker News Feed"
+			],
+			[
+				"twirt",
+				"Twitter timeline"
+			],
+			[
+				"twee",
+				"Tweet"
+			],
+			[
+				"twi",
+				"Twitter timeline"
+			],
+			[
+				"INSTALL",
+				"Package Control: Install Package"
+			],
+			[
+				"REMOVE",
+				"Package Control: Remove Package"
+			],
+			[
+				"expand",
+				"Emmet: Expand Abbreviation"
+			],
+			[
+				"snippet",
+				"Snippet: DOCTYPE HTML"
+			],
+			[
+				"Twitter",
+				"Twitter timeline"
+			],
+			[
+				"INSTLL",
+				"Package Control: Install Package"
+			],
+			[
+				"reset",
+				"SublimeCodeIntel: Reset"
+			],
+			[
+				"lint",
+				"SublimeCodeIntel: Reset"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"upgrade",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"insall",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Bookmarks: Toggle"
+			],
+			[
+				"browse",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"brow",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"browe",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"breo",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"sftp",
+				"SFTP: Sync Local -> Remote…"
+			],
+			[
+				"brows",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"sync",
+				"SFTP: Sync Both Directions…"
+			],
+			[
+				"rails",
+				"Simple Rails Navigator: List views"
+			],
+			[
+				"rails ",
+				"Simple Rails Navigator: List views"
+			],
+			[
+				"SublimeLint",
+				"SublimeLinter: Extract Annotations"
+			],
+			[
+				"remove pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"console",
+				"Set Syntax: R Console"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"rails vi",
+				"Simple Rails Navigator: List views"
+			],
+			[
+				"simple rail",
+				"Simple Rails Navigator: List models"
+			],
+			[
+				"simple rails",
+				"Simple Rails Navigator: List stylesheets"
+			],
+			[
+				"simple",
+				"Simple Rails Navigator: List controllers"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"upgra",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"git log",
+				"Git: Log All"
+			],
+			[
+				"commit",
+				"Git: Commit Selected Hunk"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"git lo",
+				"Git: Log All"
+			],
+			[
+				"git",
+				"Git: Graph All"
+			],
+			[
+				"branch",
+				"Git: Push Current Branch"
+			],
+			[
+				"git st",
+				"Git: Status"
+			],
+			[
+				"rake",
+				"Package Control: Install Package"
+			],
+			[
+				"tweet",
+				"Tweet"
+			],
+			[
+				"time",
+				"Twitter timeline"
+			],
+			[
+				"tw",
+				"Twitter timeline"
+			],
+			[
+				"oackage",
+				"Package Control: Install Package"
+			],
+			[
+				"uploa",
+				"SFTP: Upload File"
+			],
+			[
+				"upload",
+				"SFTP: Upload File"
+			],
+			[
+				"up",
+				"SFTP: Upload File"
+			],
+			[
+				"uplo",
+				"SFTP: Upload File"
+			],
+			[
+				"upl",
+				"SFTP: Upload File"
+			],
+			[
+				"pack",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"uplaod",
+				"SFTP: Upload Folder"
+			],
+			[
+				"uplod",
+				"SFTP: Upload File"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"ftp",
+				"SFTP: Setup Server…"
+			],
+			[
+				"upd",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"stack",
+				"Stackoverflow: Search from Input"
+			],
+			[
+				"updae",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"upda",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"updt",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"skin",
+				"Preferences: Default Key Bindings"
+			],
+			[
+				"twe",
+				"Twitter timeline"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"packap",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"packac",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 453.0
+	},
+	"console":
+	{
+		"height": 188.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": true,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Dimillian/Library/Application Support/Sublime Text 2/Packages/Hacker News Reader/index.html",
+		"/Users/Dimillian/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/Dimillian/Library/Application Support/Sublime Text 2/Packages/Hacker News Reader/hnreaders.py",
+		"/Users/Dimillian/Library/Application Support/Sublime Text 2/Packages/Hacker News Reader/hnreadersLoader.py",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/lang/fr/lang.txt",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/lang/en/lang.txt",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/templates/config.tpl",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/templates/bepayed.tpl",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/templates/confirmation.tpl",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/templates/modal.tpl",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/Shared/Models/Invoice.php",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/pay_cc_confirm.php",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/invoice.php",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/includes/smarty.php",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/suivi.php",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/js/suivi.js",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/templates/price.tpl",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/templates/features.tpl",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/img/arrow2-down-green_26-48.png",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/img/1-iphone_FR.png",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/js/invoice.js",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/css/pmf-admin-bootstrap.css",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/templates/suivi.tpl",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/css/pmf-bootstrap.css",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/modal.php",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/templates/index.tpl",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/templates/invoice.tpl",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/css/jquery.mobile.min.css",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/templates/login.tpl",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/templates/pay.tpl",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/register.php",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/templates/register.tpl",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/templates/register_2.tpl",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/templates/payfeature.tpl",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/js/jquery.mobile.min.js",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/api/custom/Action/Invoices.php",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/css/carousel.css",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/js/header.js",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/css/pmf-phone.css",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/img/follow/btn_bleu.png",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/templates/frame/header_logged.tpl",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/index.php",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/pay.php",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/js/pay.js",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/css/pay.css",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/project.sublime-project",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/templates/frame/footer.tpl",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/templates/frame/header.tpl",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/css/header.js",
+		"/Users/Dimillian/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/price.php",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/templates/frame/header_secondary.tpl",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/features.php",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/features.html",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/bepayed.php",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/templates/frame/header_pay.tpl",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/templates/frame/header_bepayed.tpl",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/payfeature.php",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/templates/account.tpl",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/includes/globals.php",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/smarty.php",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/lang",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/shared/sftp-config.json",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/script/invoice_operation.php",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/js/modal.js",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/css/chronoline.css",
+		"/Users/Dimillian/Library/Application Support/Guild Wars 2/config",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/templates_c/invoice.php",
+		"/Users/Dimillian/Desktop/site.txt",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/script/register.php",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/js/register.js",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/script/login.php",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/register_2.php",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/account.php",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/sftp-config.json",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/api/sftp-config.json",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/templates/register_2.php",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/script",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/login.php",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/includes/header.php",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/pay_cc.php",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/payfeature.html",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/previsions.php",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/price.html",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/api/admin/public/js/ace/ChangeLog.txt",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/templates/header_logged.tpl",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/templates/header_pay.tpl",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/templates/header_bepayed.tpl",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/templates/header.tpl",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/templates/header.php",
+		"/Users/Dimillian/Desktop/script.txt",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/includes/bills-list.php",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/js/previsions.js",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/img/fakesearch.png",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/index.html",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/css/jquery.dataTables.css",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/js/bills.js",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/prevision.php",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/img/TWITTER.png",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/img/cb.png",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/css/pmf-admin.css",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/www/pay.html",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/includes/bills-list.php",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/js/bills.js",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/sftp-config.json",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/pay.php",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/index.html",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/bepayed.php",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/suivi.php",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/css/pmf-admin-bootstrap.css",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/css/pmf-bootstrap.css",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/css/pmf-admin.css",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/pay.html",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/popup/relancer.php",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/popup/telepaiement.php",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/login.php",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/includes/header.php",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/example3.html",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/example4.html",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/example2.html",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/css/bootstrap.min.css",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/css/bootstrap.css",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/.htaccess",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/js/jquery.dataTables.min.js",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/example1.html",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/bepayed.html",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/css/pmf-boostrap.css",
+		"/Applications/MAMP/htdocs/backup/payermesfactures/js/jquery.js"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"feedParser",
+			"validate_tag",
+			"#cc",
+			"cc",
+			"Validate",
+			"Valider",
+			".site-content-bepayed",
+			"client-de",
+			"0eafc9z",
+			".row",
+			"bills-categorie-table",
+			"max-wi",
+			"tbody",
+			")\n",
+			"->));",
+			"stack",
+			"font-fami",
+			"active-logi",
+			"table",
+			"bills",
+			"li",
+			"header_bepayed.tpl",
+			"li",
+			"btn",
+			"container-narrow ",
+			"container-na",
+			";\n",
+			"new Date().",
+			"tooltip",
+			"phrase",
+			"invoicesList",
+			"invoicesL",
+			"invoices",
+			"invoicesList",
+			"bills.js",
+			"bill.js",
+			"H1",
+			"narrow",
+			".nav",
+			"menu",
+			"index.html",
+			"title",
+			"container-narrow",
+			"input-paycode-submit",
+			"pay",
+			"div-pay-invoice-info",
+			"span",
+			"bold",
+			"bills",
+			"img",
+			"suivi",
+			"container-narrow",
+			"img",
+			"features",
+			".footer",
+			".contai",
+			"div",
+			"today",
+			"url",
+			"jquery",
+			"items_created_since_count",
+			"count",
+			"graph_custom_field_daily_for_class",
+			"TODO",
+			"opti",
+			"passenger_ids",
+			"></",
+			".nil",
+			"average_users_per_routes",
+			"money_saved",
+			"money_saved_passenger",
+			"money_saved",
+			"calculate_route_car",
+			"money_saved",
+			"group_date_for_class",
+			"carbon",
+			"calculate_route_car",
+			"carbon",
+			"lookup",
+			"carbon_saved",
+			"carbon",
+			"money_saved",
+			"Route",
+			"@distance_route_is_va",
+			":end",
+			"    \n",
+			"to_date",
+			"to_dat",
+			"to_date",
+			"route_count_last_week",
+			"last",
+			"disance_group_date",
+			"history_route",
+			"items_count",
+			"items_count_this",
+			"%);\n",
+			"{\n",
+			"f2a126",
+			"body",
+			"current_user",
+			"driver_history_routes",
+			"User",
+			"user",
+			"User",
+			"items_count_week_before_last_week",
+			"items_count_last_week",
+			"growth_for_class",
+			"span5",
+			"pie",
+			".chart",
+			"chart",
+			"a href",
+			"class",
+			"html",
+			"logo",
+			"loho",
+			"icon-arrow-right",
+			"controller",
+			"bars",
+			"chart",
+			"  \n",
+			"url",
+			"image_ta",
+			"src",
+			"av1",
+			"url",
+			"url(\"",
+			"url"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"header_secondary.tpl",
+			"today.",
+			"readbleDate",
+			"readbleState",
+			"items_created_since_count",
+			"items_count_last_week",
+			"items_count_this_week",
+			"\"%>)",
+			"url(<%= asset_path \"dashboard",
+			"\" %>)",
+			"\"%=>)",
+			"url(<%= asset_path \"dashboard",
+			"url(<%= asset_path \"dashboard/",
+			"url(<%= asset_path \"dashboard/\"",
+			"url(<%= asset_path \"dashboard/\" %>)"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "HackerNewsReader.py",
+					"settings":
+					{
+						"buffer_size": 1370,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								157,
+								157
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+								"ruby": "/Users/Dimillian/.rvm/rubies/default/bin/ruby"
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Default.sublime-commands",
+					"settings":
+					{
+						"buffer_size": 95,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								95,
+								95
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"auto_name": "[",
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+								"ruby": "/Users/Dimillian/.rvm/rubies/default/bin/ruby"
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Main.sublime-menu",
+					"settings":
+					{
+						"buffer_size": 254,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								252,
+								252
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+								"ruby": "/Users/Dimillian/.rvm/rubies/default/bin/ruby"
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "readme.md",
+					"settings":
+					{
+						"buffer_size": 233,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								169,
+								169
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"auto_name": "",
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+								"ruby": "/Users/Dimillian/.rvm/rubies/default/bin/ruby"
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.617019113959,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.git":
+	{
+		"height": 94.0
+	},
+	"output.sftp":
+	{
+		"height": 94.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"suivi",
+				"www/js/suivi.js"
+			],
+			[
+				"pay_cc",
+				"www/pay_cc_confirm.php"
+			],
+			[
+				"invoice",
+				"Shared/Models/Invoice.php"
+			],
+			[
+				"modal",
+				"www/templates/modal.tpl"
+			],
+			[
+				"pmf",
+				"www/css/pmf-bootstrap.css"
+			],
+			[
+				"admin",
+				"www/css/pmf-admin-bootstrap.css"
+			],
+			[
+				"invoices",
+				"api/custom/Action/Invoices.php"
+			],
+			[
+				"phone",
+				"www/css/pmf-phone.css"
+			],
+			[
+				"carou",
+				"www/css/carousel.css"
+			],
+			[
+				"car",
+				"www/css/carousel.css"
+			],
+			[
+				"pmf-bo",
+				"www/css/pmf-bootstrap.css"
+			],
+			[
+				"index",
+				"www/index.php"
+			],
+			[
+				"invoice.tp",
+				"www/templates/invoice.tpl"
+			],
+			[
+				"bil",
+				"www/includes/bills-list.php"
+			],
+			[
+				"pay",
+				"www/pay.php"
+			],
+			[
+				"bill",
+				"includes/bills-list.php"
+			],
+			[
+				"bills",
+				"includes/bills-list.php"
+			],
+			[
+				"dashboard_con",
+				"app/controllers/dashboard_controller.rb"
+			],
+			[
+				"dashboard/user",
+				"app/views/dashboard/users_stats.html.erb"
+			],
+			[
+				"dashboard/finan",
+				"app/views/dashboard/financial.html.erb"
+			],
+			[
+				"finance",
+				"app/views/dashboard/financial.html.erb"
+			],
+			[
+				"dasboard_co",
+				"app/controllers/dashboard_controller.rb"
+			],
+			[
+				"route_stats",
+				"app/views/dashboard/routes_stats.html.erb"
+			],
+			[
+				"dashboard.rout",
+				"app/assets/javascripts/dashboard/dashboard.routes_stats.js"
+			],
+			[
+				"dashboard/index",
+				"app/views/dashboard/index.html.erb"
+			],
+			[
+				"users_st",
+				"app/views/dashboard/users_stats.html.erb"
+			],
+			[
+				"routes_sta",
+				"app/views/dashboard/routes_stats.html.erb"
+			],
+			[
+				"dashboard.users",
+				"app/assets/javascripts/dashboard/dashboard.users.js"
+			],
+			[
+				"users_stat",
+				"app/views/dashboard/users_stats.html.erb"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"",
+				"app/assets/stylesheets/bootstrap-wayz-up.css.erb"
+			],
+			[
+				"schem",
+				"db/schema.rb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"user",
+				"app/models/user.rb"
+			],
+			[
+				"phonegap",
+				"js/debug/jquery.smobile.controls.phonegap.js"
+			],
+			[
+				"phongap",
+				"phonegap/phonegap-1.3.0.js"
+			],
+			[
+				"phonegao",
+				"applications/demo/resources/phonegapTest.json"
+			],
+			[
+				"gunction",
+				"phonegap/function.js"
+			],
+			[
+				"utili",
+				"model/Utilisateur.php"
+			],
+			[
+				"phoegap",
+				"js/debug/jquery.smobile.controls.phonegap.js"
+			],
+			[
+				"control",
+				"js/debug/jquery.smobile.controls.phonegap.js"
+			],
+			[
+				"db",
+				"js/debug/test-db.js"
+			],
+			[
+				"sdata",
+				"js/debug/jquery.smobile.sdata.db.js"
+			],
+			[
+				"auth",
+				"js/debug/auth/jquery.smobile.auth.1000.js"
+			],
+			[
+				"err",
+				"model/Erreur.php"
+			],
+			[
+				"annon",
+				"model/Annonce.php"
+			],
+			[
+				"main",
+				"main.html"
+			],
+			[
+				"function",
+				"phonegap/function.js"
+			],
+			[
+				"chars",
+				"js/debug/jquery.smobile.controls.charts.js"
+			],
+			[
+				"smo",
+				"js/debug/jquery.smobile.js"
+			],
+			[
+				"pie",
+				"applications/demo/resources/chartPie.json"
+			],
+			[
+				"chart",
+				"applications/demo/resources/chartBars.json"
+			],
+			[
+				"sda",
+				"applications/demo/resources/chartSdata.json"
+			],
+			[
+				"layou",
+				"applications/demo/resources/demo-layout.json"
+			],
+			[
+				"edit",
+				"applications/demo/resources/expenses-edit.json"
+			],
+			[
+				"home",
+				"data/old/home.json"
+			],
+			[
+				"char",
+				"applications/demo/resources/chartSdata.json"
+			],
+			[
+				"hack",
+				"js/demo-hack.js"
+			],
+			[
+				"charts",
+				"applications/demo/resources/chartSdata.json"
+			],
+			[
+				"hak",
+				"js/demo-hack.js"
+			],
+			[
+				"utilisa",
+				"custom/Model/utilisateur.php"
+			],
+			[
+				"annonce",
+				"custom/Action/Annonce.php"
+			],
+			[
+				"f",
+				"admin/console/frapi.php"
+			],
+			[
+				"action",
+				"library/Frapi/Action.php"
+			],
+			[
+				"cont",
+				"js/debug/jquery.controls.l1000.js"
+			],
+			[
+				"hom",
+				"data/home.json"
+			],
+			[
+				"contro",
+				"js/debug/jquery.controls.l1000.js"
+			],
+			[
+				"lay",
+				"js/debug/jquery.layout.l1000.js"
+			],
+			[
+				"sag",
+				"jquery/sagetheme.min.css"
+			],
+			[
+				"sae",
+				"jquery/sagetheme.css"
+			],
+			[
+				"sagetheme",
+				"jquery/sagetheme.css"
+			],
+			[
+				"mobilecon",
+				"js/mobile-config.js"
+			],
+			[
+				"untitled",
+				"untitled"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 187.0,
+	"status_bar_visible": true
+}

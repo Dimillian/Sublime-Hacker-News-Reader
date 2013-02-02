@@ -1,0 +1,14 @@
+[
+    {
+        "caption": "Tools",
+        "mnemonic": "n",
+        "id": "tools",
+        "children":
+        [
+            {
+                "command": "hacker_news_reader",
+                "caption": "Read Hacker News"
+            }
+        ]
+    }
+]
