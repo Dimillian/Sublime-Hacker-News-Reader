@@ -1,3 +1,5 @@
+#V1.1
+
 import sublime
 import sublime_plugin
 import threading
@@ -25,7 +27,17 @@ class HackerNewsReader(sublime_plugin.WindowCommand):
 		self.window.show_quick_panel(self.feed_text, self.onItemSelection)
 
 	def onItemSelection(self, index):
-		url = self.feed['entries'][index]['link']
+		self.selected_item = index
+		menu_text = []
+		menu_text.append('Open comments on Hacker News')
+		menu_text.append('Read the article')
+		self.window.show_quick_panel(menu_text, self.onMenuChoiceSelection)
+
+	def onMenuChoiceSelection(self, index):
+		if (index == 0):	
+			url = self.feed['entries'][self.selected_item]['comments']
+		else:
+			url = self.feed['entries'][self.selected_item]['link']
 		import webbrowser
 		webbrowser.open(url)
 

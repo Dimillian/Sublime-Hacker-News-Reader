@@ -38,6 +38,10 @@ Feel free to bind it to any shortcut.
 
 ##What's new
 
+###V1.1 (2/2/2013)
+
+* On item selection allow to open the article or the Hacker News comments
+
 ###V1.0 (2/2/2013)
 
 * First public version, this basic version only load and display the front page feed. Select ant item to open the link. 
