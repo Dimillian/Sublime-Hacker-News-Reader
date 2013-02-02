@@ -1,12 +1,46 @@
 #Sublime Hacker News Reader
 
-##What's is it ? 
+##What ?? 
 
 Because an image is better than any text, here it is: 
 
+![image](https://raw.github.com/Dimillian/Sublime-Hacker-News-Reader/master/screen.png)
 
-This Sublime Text plugin 
+This is my first public Python project, well this is my first Python project ever, I'm open to any constructive criticism. I think the code is currently bad, but I've mad it for myself first, and its works, so I'm fine. 
+I'll make i.e. better with more features. Maybe soon, maybe later.
 
+This plugin is not in Package Control yet, I'll submit it soon, this version or a later one.
+
+##Features
+* Clean and fast
+* Load the Hacker News Front Page in a Sublime Text menu
+* Select any item to read the article
+
+
+##Coming soon
+* Read comments
+* Login
+* Post comments
+* See your and others profile/karma
+* more...
+
+Submit any features request or bugs as issues, I'll be more than happy to work on them. 
+This repo is also open to Pull Requests. 
+
+##Install
+**From here**: Download and copy this folder to your packages directory
+
+**Package Control**: Coming soon, I'll submit this package soon to Package Control so you'll be able to install it right within Sublime Text 2
+
+#using
+Open the Command Palette and search for 'Hacker News Feed', you can also access this command from the tool menu in the first section. 
+Feel free to bind it to any shortcut. 
+
+##What's new
+
+###V1.0 (2/2/2013)
+
+* First public version, this basic version only load and display the front page feed. Select ant item to open the link. 
 
 ##libs
 
