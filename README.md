@@ -7,7 +7,7 @@ Because an image is better than any text, here it is:
 ![image](https://raw.github.com/Dimillian/Sublime-Hacker-News-Reader/master/screen.png)
 
 This is my first public Python project, well this is my first Python project ever, I'm open to any constructive criticism. I think the code is currently bad, but I've mad it for myself first, and its works, so I'm fine. 
-I'll make i.e. better with more features. Maybe soon, maybe later.
+I'll make it better with more features. Maybe soon, maybe later.
 
 This plugin is not in Package Control yet, I'll submit it soon, this version or a later one.
 
