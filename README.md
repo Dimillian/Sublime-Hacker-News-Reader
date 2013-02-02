@@ -38,6 +38,11 @@ Feel free to bind it to any shortcut.
 
 ##What's new
 
+###V1.3 (2/2/2013)
+
+* Display vote and comments count.
+* Correctly close menu and do no action when esc key is pressed.
+
 ###V1.2 (2/2/2013)
 
 * Rewrite using hn python API
