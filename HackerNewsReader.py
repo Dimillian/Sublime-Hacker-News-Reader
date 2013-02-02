@@ -9,11 +9,10 @@ hackernews = "http://news.ycombinator.com/rss"
 class HackerNewsReader(sublime_plugin.WindowCommand):
 	def run(self):
 		sublime.status_message('Loading Hacker News Feed')
-		thread = HNRSSLoad(5, self.onThreadResult)
+		thread = HNRSSLoad(self.onThreadResult)
 		thread.start();
 
 	def onThreadResult(self, data):
-		#Check data integrity before main thread
 		self.hnData = data
 		sublime.set_timeout(self.displayItems, 0)
 
@@ -26,14 +25,12 @@ class HackerNewsReader(sublime_plugin.WindowCommand):
 		self.window.show_quick_panel(self.feed_text, self.onItemSelection)
 
 	def onItemSelection(self, index):
-		#url = presentation[0]
 		url = self.feed['entries'][index]['link']
 		import webbrowser
 		webbrowser.open(url)
 
 class HNRSSLoad(threading.Thread):
-	def __init__(self, timeout, callback):
-		self.timeout = timeout
+	def __init__(self, callback):
 		self.result = None
 		threading.Thread.__init__(self)
 		self.callback = callback
