@@ -32,7 +32,7 @@ This repo is also open to Pull Requests.
 
 **Package Control**: Coming soon, I'll submit this package soon to Package Control so you'll be able to install it right within Sublime Text 2
 
-#using
+##Using
 Open the Command Palette and search for 'Hacker News Feed', you can also access this command from the tool menu in the first section. 
 Feel free to bind it to any shortcut. 
 
@@ -42,7 +42,7 @@ Feel free to bind it to any shortcut.
 
 * First public version, this basic version only load and display the front page feed. Select ant item to open the link. 
 
-##libs
+##Libs
 
 This plugin use and include [FeedParser](http://code.google.com/p/feedparser/downloads/list)
 
