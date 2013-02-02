@@ -1,9 +1,8 @@
-#V1.1
+#V1.2
 
 import sublime
 import sublime_plugin
 import threading
-from libs.feedparser import parse
 from libs.hnapi import *
 
 hackernews = "http://news.ycombinator.com/rss"
