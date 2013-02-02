@@ -14,14 +14,13 @@ This plugin is not in Package Control yet, I'll submit it soon, this version or 
 ##Features
 * Clean and fast
 * Load the Hacker News Front Page in a Sublime Text menu
-* Select any item to read the article
+* Select and item to read comments or the article
+* Quick view on the user profile
 
 
 ##Coming soon
-* Read comments
 * Login
 * Post comments
-* See your and others profile/karma
 * more...
 
 Submit any features request or bugs as issues, I'll be more than happy to work on them. 
@@ -37,6 +36,10 @@ Open the Command Palette and search for 'Hacker News Feed', you can also access 
 Feel free to bind it to any shortcut. 
 
 ##What's new
+
+###V1.4 (2/2/2013)
+
+* You can get mother info on the submiter
 
 ###V1.3 (2/2/2013)
 
