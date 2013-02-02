@@ -38,6 +38,10 @@ Feel free to bind it to any shortcut.
 
 ##What's new
 
+###V1.2 (2/2/2013)
+
+* Rewrite using hn python API
+
 ###V1.1 (2/2/2013)
 
 * On item selection allow to open the article or the Hacker News comments
@@ -48,7 +52,7 @@ Feel free to bind it to any shortcut.
 
 ##Libs
 
-This plugin use and include [FeedParser](http://code.google.com/p/feedparser/downloads/list)
+This plugin use and include [hnapi](https://github.com/scottjacksonx/hn-api)
 
 ##Licensing
 

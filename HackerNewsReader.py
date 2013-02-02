@@ -3,14 +3,16 @@
 import sublime
 import sublime_plugin
 import threading
-import requests as rq
 from libs.feedparser import parse
+from libs.hnapi import *
 
 hackernews = "http://news.ycombinator.com/rss"
+hnAPi = HackerNewsAPI()
 
 class HackerNewsReader(sublime_plugin.WindowCommand):
 	def run(self):
 		sublime.status_message('Loading Hacker News Feed')
+
 		thread = HNRSSLoad(self.onThreadResult)
 		thread.start();
 
@@ -19,10 +21,10 @@ class HackerNewsReader(sublime_plugin.WindowCommand):
 		sublime.set_timeout(self.displayItems, 0)
 
 	def displayItems(self):
-		self.feed = parse(self.hnData)
 		self.feed_text = []
-		for item in self.feed['entries']:
-			self.feed_text.append([item['title'], item['link']])
+		for item in self.hnData:
+			print item.printDetails()
+			self.feed_text.append([item.title.decode('utf8'), item.URL])
 
 		self.window.show_quick_panel(self.feed_text, self.onItemSelection)
 
@@ -35,9 +37,9 @@ class HackerNewsReader(sublime_plugin.WindowCommand):
 
 	def onMenuChoiceSelection(self, index):
 		if (index == 0):	
-			url = self.feed['entries'][self.selected_item]['comments']
+			url = self.hnData[self.selected_item].commentsURL
 		else:
-			url = self.feed['entries'][self.selected_item]['link']
+			url = self.hnData[self.selected_item].URL
 		import webbrowser
 		webbrowser.open(url)
 
@@ -47,13 +49,6 @@ class HNRSSLoad(threading.Thread):
 		threading.Thread.__init__(self)
 		self.callback = callback
 	def run(self):
-		try:
-			self.result = rq.get(hackernews).text
-			self.callback(self.result)
-			return
-		except (rq.exceptions.ConnectionError) as (e):
-			err = 'No internet connection'
-		except (rq.exceptions.HTTPError) as (e):
-			err = 'Bad HTTP Response'
-		sublime.error_message(err)
-		self.result = False
+		self.result = hnAPi.getTopStories()
+		self.callback(self.result)
+		return
