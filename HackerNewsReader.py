@@ -3,7 +3,7 @@
 import sublime
 import sublime_plugin
 import threading
-from libs.hnapi import *
+from hnapi import *
 
 hackernews = "http://news.ycombinator.com/rss"
 hnAPi = HackerNewsAPI()
