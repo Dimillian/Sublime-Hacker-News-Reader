@@ -160,7 +160,10 @@ class HackerNewsAPI:
         """
         urlStart = source.find('score_') + 6
         urlEnd = source.find('"', urlStart)
-        return int(source[urlStart:urlEnd])
+        try:   
+            return int(source[urlStart:urlEnd])
+        except ValueError:
+            return -1
         
         
     def getCommentsURL(self, source):
