@@ -39,7 +39,7 @@ Feel free to bind it to any shortcut.
 
 ###V1.4 (2/2/2013)
 
-* You can get mother info on the submiter
+* You can get more info on the submiter
 
 ###V1.3 (2/2/2013)
 

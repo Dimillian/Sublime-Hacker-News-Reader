@@ -40,3 +40,5 @@ nosetests.xml
 
 #OSX
 .DS_Store
+
+hnreader.sublime-workspace
