@@ -42,3 +42,9 @@ nosetests.xml
 .DS_Store
 
 hnreader.sublime-workspace
+
+*.sublime-project
+
+*.sublime-project
+
+hnreader.sublime-project
