@@ -68,7 +68,7 @@ class HackerNewsReader(sublime_plugin.WindowCommand):
 		self.window.show_quick_panel(menu_text, self.onUserMenuChoiceSelection)
 
 	def onUserMenuChoiceSelection(self, index):
-		if (index != 1):
+		if (index != -1):
 			self.openURL(self.userData.userPageURL)
 
 	def openURL(self, url):

@@ -37,6 +37,13 @@ Feel free to bind it to any shortcut.
 
 ##What's new
 
+###V1.5 (3/26/2013)
+
+* ==Merge from Thibaultchat ==
+* Error message if your internet connection is down
+* Keymap to CMD+OPTIONS+N for OSX, keymap for linux and Windows too
+* Internal refactor
+
 ###V1.4 (2/2/2013)
 
 * You can get more info on the submiter
