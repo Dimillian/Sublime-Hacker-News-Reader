@@ -6,7 +6,7 @@ import threading
 from libs.hnapi import *
 
 always_online_url = "http://google.com"
-hn_url = "https://news.ycombinator.com/"
+hn_url = "http://news.ycombinator.com"
 timeout = 2
 
 hnAPi = HackerNewsAPI()
@@ -75,12 +75,16 @@ class HackerNewsReader(sublime_plugin.WindowCommand):
 		import webbrowser
 		webbrowser.open(url)
 
-	def onInternetThreadResult(self, status):
-		if (not status):
-			sublime.set_timeout(self.displayError, 0)
+	def onInternetThreadResult(self, status, service_status):
+		self.internetStatus = status
+		self.service_status = service_status
+		sublime.set_timeout(self.displayError, 0)
 
 	def displayError(self):
-		sublime.status_message('Your Internet connection seems to be down, could you please check it for me?')
+		if (not self.internetStatus):
+			sublime.status_message('Your Internet connection seems to be down, could you please check it for me?')
+		elif (not self.service_status):
+			sublime.status_message('Mhh... Hacker News seems to be down. Open your browser and check.')
 		
 
 class HNRSSNewsLoad(threading.Thread):
@@ -115,7 +119,11 @@ class CheckStatus(threading.Thread):
 	def run(self):
 		try:
 			urllib2.urlopen(self.check_url, timeout=self.timeout)
-			self.callback(True)
+			try:
+				urllib2.urlopen(self.service_url, timeout=self.timeout)
+				self.callback(True, True) # Both Google and HN are up
+			except:
+				self.callback(True, False) # HN seems to be down
 		except:
-			self.callback(False)
+			self.callback(False, None) # No need to check HN if no connection.
 		return
