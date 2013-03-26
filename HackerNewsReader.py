@@ -5,12 +5,19 @@ import sublime_plugin
 import threading
 from libs.hnapi import *
 
+always_online_url = "http://google.com"
+hn_url = "https://news.ycombinator.com/"
+timeout = 2
+
 hnAPi = HackerNewsAPI()
 
 class HackerNewsReader(sublime_plugin.WindowCommand):
 	def run(self):
 		sublime.status_message('Loading Hacker News Feed...')
-		HNRSSNewsLoad(self.onNewsThreadResult).start()
+		statusThread = CheckStatus(self.onInternetThreadResult, always_online_url, hn_url, timeout)
+		statusThread.start()
+		newsThread = HNRSSNewsLoad(self.onNewsThreadResult)
+		newsThread.start()
 
 	def onNewsThreadResult(self, data):
 		self.hnData = data
@@ -43,8 +50,10 @@ class HackerNewsReader(sublime_plugin.WindowCommand):
 				self.openURL(self.hnData[self.selected_item_index].URL)
 			else:
 				item = self.hnData[self.selected_item_index]
-				thread = HNRSSUserLoad(self.onUserThreadResult, item.submitter)
-				thread.start()
+				statusThread = CheckStatus(self.onInternetThreadResult, always_online_url, hn_url, timeout)
+				statusThread.start()
+				userThread = HNRSSUserLoad(self.onUserThreadResult, item.submitter)
+				userThread.start()
 				url = None
 
 	def onUserThreadResult(self, data):
@@ -65,6 +74,13 @@ class HackerNewsReader(sublime_plugin.WindowCommand):
 	def openURL(self, url):
 		import webbrowser
 		webbrowser.open(url)
+
+	def onInternetThreadResult(self, status):
+		if (not status):
+			sublime.set_timeout(self.displayError, 0)
+
+	def displayError(self):
+		sublime.status_message('Your Internet connection seems to be down, could you please check it for me?')
 		
 
 class HNRSSNewsLoad(threading.Thread):
@@ -87,4 +103,19 @@ class HNRSSUserLoad(threading.Thread):
 		user = HackerNewsUser(self.username)
 		self.result = user
 		self.callback(self.result)
+		return
+
+class CheckStatus(threading.Thread):
+	def __init__(self, callback, check_url, service_url, timeout):
+		self.timeout = timeout
+		self.check_url = check_url
+		self.service_url = service_url
+		threading.Thread.__init__(self)
+		self.callback = callback
+	def run(self):
+		try:
+			urllib2.urlopen(self.check_url, timeout=self.timeout)
+			self.callback(True)
+		except:
+			self.callback(False)
 		return
