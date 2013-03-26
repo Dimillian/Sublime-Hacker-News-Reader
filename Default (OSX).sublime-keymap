@@ -1,0 +1,5 @@
+[
+    {
+        "keys": ["super+alt+n"], "command": "hacker_news_reader"
+    }
+]
