@@ -1,19 +1,17 @@
-#V1.4
+#V1.5
 
 import sublime
 import sublime_plugin
 import threading
-from hnapi import *
+from libs.hnapi import *
 
-hackernews = "http://news.ycombinator.com/rss"
 hnAPi = HackerNewsAPI()
 
 class HackerNewsReader(sublime_plugin.WindowCommand):
 	def run(self):
-		sublime.status_message('Loading Hacker News Feed')
-
+		sublime.status_message('Loading Hacker News Feed...')
 		thread = HNRSSLoad(self.onThreadResult)
-		thread.start();
+		thread.start()
 
 	def onThreadResult(self, data):
 		self.hnData = data
@@ -33,7 +31,7 @@ class HackerNewsReader(sublime_plugin.WindowCommand):
 			self.selected_item_index = index
 			item = self.hnData[index]
 			menu_text = []
-			menu_text.append('Read the article')
+			menu_text.append('Read the article in browser')
 			menu_text.append('Open comments on Hacker News')
 			menu_text.append('About %s' % item.submitter)
 			self.window.show_quick_panel(menu_text, self.onMenuChoiceSelection)
@@ -47,7 +45,7 @@ class HackerNewsReader(sublime_plugin.WindowCommand):
 			else:
 				item = self.hnData[self.selected_item_index]
 				thread = HNRSSUserLoad(self.onUserThreadResult, item.submitter)
-				thread.start();
+				thread.start()
 				url = None
 
 	def onUserThreadResult(self, data):
