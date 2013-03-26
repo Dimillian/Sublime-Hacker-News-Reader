@@ -1,21 +1,25 @@
-#V1.4
+#V1.5
 
 import sublime
 import sublime_plugin
 import threading
-from hnapi import *
+from libs.hnapi import *
 
-hackernews = "http://news.ycombinator.com/rss"
+always_online_url = "http://google.com"
+hn_url = "http://news.ycombinator.com"
+timeout = 2
+
 hnAPi = HackerNewsAPI()
 
 class HackerNewsReader(sublime_plugin.WindowCommand):
 	def run(self):
-		sublime.status_message('Loading Hacker News Feed')
+		sublime.status_message('Loading Hacker News Feed...')
+		statusThread = CheckStatus(self.onInternetThreadResult, always_online_url, hn_url, timeout)
+		statusThread.start()
+		newsThread = HNRSSNewsLoad(self.onNewsThreadResult)
+		newsThread.start()
 
-		thread = HNRSSLoad(self.onThreadResult)
-		thread.start();
-
-	def onThreadResult(self, data):
+	def onNewsThreadResult(self, data):
 		self.hnData = data
 		sublime.set_timeout(self.displayItems, 0)
 
@@ -33,7 +37,7 @@ class HackerNewsReader(sublime_plugin.WindowCommand):
 			self.selected_item_index = index
 			item = self.hnData[index]
 			menu_text = []
-			menu_text.append('Read the article')
+			menu_text.append('Read the article in browser')
 			menu_text.append('Open comments on Hacker News')
 			menu_text.append('About %s' % item.submitter)
 			self.window.show_quick_panel(menu_text, self.onMenuChoiceSelection)
@@ -46,8 +50,10 @@ class HackerNewsReader(sublime_plugin.WindowCommand):
 				self.openURL(self.hnData[self.selected_item_index].URL)
 			else:
 				item = self.hnData[self.selected_item_index]
-				thread = HNRSSUserLoad(self.onUserThreadResult, item.submitter)
-				thread.start();
+				statusThread = CheckStatus(self.onInternetThreadResult, always_online_url, hn_url, timeout)
+				statusThread.start()
+				userThread = HNRSSUserLoad(self.onUserThreadResult, item.submitter)
+				userThread.start()
 				url = None
 
 	def onUserThreadResult(self, data):
@@ -68,9 +74,20 @@ class HackerNewsReader(sublime_plugin.WindowCommand):
 	def openURL(self, url):
 		import webbrowser
 		webbrowser.open(url)
+
+	def onInternetThreadResult(self, status, service_status):
+		self.internetStatus = status
+		self.service_status = service_status
+		sublime.set_timeout(self.displayError, 0)
+
+	def displayError(self):
+		if (not self.internetStatus):
+			sublime.status_message('Your Internet connection seems to be down, could you please check it for me?')
+		elif (not self.service_status):
+			sublime.status_message('Mhh... Hacker News seems to be down. Open your browser and check.')
 		
 
-class HNRSSLoad(threading.Thread):
+class HNRSSNewsLoad(threading.Thread):
 	def __init__(self, callback):
 		self.result = None
 		threading.Thread.__init__(self)
@@ -90,4 +107,23 @@ class HNRSSUserLoad(threading.Thread):
 		user = HackerNewsUser(self.username)
 		self.result = user
 		self.callback(self.result)
+		return
+
+class CheckStatus(threading.Thread):
+	def __init__(self, callback, check_url, service_url, timeout):
+		self.timeout = timeout
+		self.check_url = check_url
+		self.service_url = service_url
+		threading.Thread.__init__(self)
+		self.callback = callback
+	def run(self):
+		try:
+			urllib2.urlopen(self.check_url, timeout=self.timeout)
+			try:
+				urllib2.urlopen(self.service_url, timeout=self.timeout)
+				self.callback(True, True) # Both Google and HN are up
+			except:
+				self.callback(True, False) # HN seems to be down
+		except:
+			self.callback(False, None) # No need to check HN if no connection.
 		return
