@@ -10,10 +10,9 @@ hnAPi = HackerNewsAPI()
 class HackerNewsReader(sublime_plugin.WindowCommand):
 	def run(self):
 		sublime.status_message('Loading Hacker News Feed...')
-		thread = HNRSSLoad(self.onThreadResult)
-		thread.start()
+		HNRSSNewsLoad(self.onNewsThreadResult).start()
 
-	def onThreadResult(self, data):
+	def onNewsThreadResult(self, data):
 		self.hnData = data
 		sublime.set_timeout(self.displayItems, 0)
 
@@ -68,7 +67,7 @@ class HackerNewsReader(sublime_plugin.WindowCommand):
 		webbrowser.open(url)
 		
 
-class HNRSSLoad(threading.Thread):
+class HNRSSNewsLoad(threading.Thread):
 	def __init__(self, callback):
 		self.result = None
 		threading.Thread.__init__(self)
