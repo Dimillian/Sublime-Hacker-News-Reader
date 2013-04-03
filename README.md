@@ -2,7 +2,7 @@
 
 ##What ?? 
 
-Because an image is better than any text, here it is: 
+Because an image is better than a thousand lines of text, here it is: 
 
 ![image](https://raw.github.com/Dimillian/Sublime-Hacker-News-Reader/master/screen.png)
 
@@ -36,6 +36,12 @@ Open the Command Palette and search for 'Hacker News Feed', you can also access 
 Feel free to bind it to any shortcut. 
 
 ##What's new
+
+###V1.5.1 (4/03/2013)
+
+* ==Merge from thibaultCha ==
+* Fixed plugin not launching on Sublime startup
+* Fixed class naming convention
 
 ###V1.5 (3/26/2013)
 
