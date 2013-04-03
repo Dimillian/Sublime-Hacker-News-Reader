@@ -1,4 +1,6 @@
-#V1.5
+#V1.5.1
+#author: Dimillian
+#contributor: thibaultCha
 
 import sublime
 import sublime_plugin
@@ -11,7 +13,7 @@ timeout = 2
 
 hnAPi = HackerNewsAPI()
 
-class HackerNewsReader(sublime_plugin.WindowCommand):
+class HackerNewsReaderCommand(sublime_plugin.WindowCommand):
 	def run(self):
 		sublime.status_message('Loading Hacker News Feed...')
 		statusThread = CheckStatus(self.onInternetThreadResult, always_online_url, hn_url, timeout)
